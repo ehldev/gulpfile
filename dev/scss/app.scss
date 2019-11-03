@@ -1,0 +1,25 @@
+@import 'config/main';
+
+// Estilos de prueba, aquí deberían ir los tuyos.
+
+body {
+	width: 100%;
+	height: 100vh;
+
+	color: #333A38;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 1rem;
+}
+
+p {
+	font-size: 1.2em;
+	color: #009A59;
+}

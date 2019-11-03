@@ -1,0 +1,38 @@
+{
+  "name": "gulpfile",
+  "version": "1.0.0",
+  "description": "Gulpfile configurado para trabajar con Pug, Sass y Babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "gulpfile",
+    "gulp4",
+    "pug",
+    "sass",
+    "babel"
+  ],
+  "author": "Erick Huamani",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache-bust": "^1.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wait": "0.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
